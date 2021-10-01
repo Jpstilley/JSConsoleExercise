@@ -29,6 +29,17 @@
         h1.textContent = 'Hello, Console!';
         console.log(h1.textContent);
       }, 3000);
+
+      function logArtists(artists){
+        /*artists.forEach(element => console.log(element.first + ' ' + element.last));*/
+        i = 0;
+        while(i < artists.length){
+          console.log(artists[i].first + ' ' + artists[i].last);
+          i++;
+        }
+      }
+
+      logArtists(artists);
     </script>
   </body>
 </html>
